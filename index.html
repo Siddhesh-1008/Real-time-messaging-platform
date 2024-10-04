@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WHATSUPP CHAT APP</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body> 
+    <section class="chat__section">
+        <div class="brand">
+            <img height="40" src="/wassup.png" alt="" >
+            <h1 class="h">WASSUP</h1>
+        </div>
+
+        <!-- MSG AREA FOR INCOMING ON LEFT SIDE -->
+        <div class="message__area">
+            <!--DYNAMICALLY ADD INCOMING AND OUTGOING MSG -->
+            <!-- 
+            INCOMING MSG ON LEFT SIDE
+             <div class="incoming message">
+                <h4>RAKESH</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo eligendi facere voluptas enim soluta quibusdam aperiam laborum, in laboriosam nesciunt temporibus eius non doloribus dolore architecto accusantium mollitia perspiciatis impedit?</p>
+            </div>
+            OUTGOING MSG ON RIGHT SIDE 
+            <div class="outgoing message">
+                <h4>RAHUL</h4>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo eligendi facere voluptas enim soluta quibusdam aperiam laborum, in laboriosam nesciunt temporibus eius non doloribus dolore architecto accusantium mollitia perspiciatis impedit?</P>
+            </div>
+             -->
+        </div>
+
+        <div>
+            <textarea placeholder="WRITE A MSG" id="textarea" rows="1" cols="50"></textarea>
+        </div>
+
+    </section>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+</body>
+</html>
